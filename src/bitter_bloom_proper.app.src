@@ -1,0 +1,11 @@
+{application, bitter_bloom_proper,
+ [
+  {description, "Property based testing library for bitter_bloom"},
+  {vsn, "1.2"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib]},
+  {mod, { bitter_bloom, []}},
+  {env, []}
+ ]}.

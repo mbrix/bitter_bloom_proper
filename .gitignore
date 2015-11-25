@@ -1,0 +1,6 @@
+.rebar
+ebin
+priv/*.so
+.eunit
+deps/
+_build/
